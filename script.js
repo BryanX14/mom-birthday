@@ -47,10 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => {
         galleryImg.src = images[currentIndex];
         galleryImg.style.opacity = 1;
-
-        galleryImg.classList.remove("zoom-in");
-    void galleryImg.offsetWidth; // trigger reflow to restart animation
-    galleryImg.classList.add("zoom-in");
       }, 500);
     }
   
