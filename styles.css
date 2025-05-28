@@ -152,6 +152,21 @@ html, body {
     text-align: center;
     margin-top: 0.5rem;
   }
+
+  /* Zoom animation on image switch */
+@keyframes zoomInOnce {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
+
+.zoom-in {
+  animation: zoomInOnce 5s ease-in-out;
+}
+
   
   /* Responsive */
   @media (max-width: 800px) {
