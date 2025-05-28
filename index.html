@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday, Mom!</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <main class="card split-layout">
+        <div class="text-content">
+          <h1>Happy Birthday, Mom!</h1>
+          <p class="message">
+            I know that this isn't a hand made card, but know that I put just as much love into making it.
+            I can't believe that you're already 45 years old!!!<br><br>
+            I can't begin to tell you how proud it makes me to have a mom who cares so much for me. You are an incredible mom, and an amazing friend to me. <br><br>
+            Thank you for all the support you have provided me over the years, and the support you continue to provide me.<br>
+            Love always,<br>
+            Bu Bear ❤️
+          </p>
+        </div>
+      
+        <div class="gallery-container">
+          <img id="gallery-image" src="images/1.png" alt="Mom photo" />
+        </div>
+        <h2 class="voice-title">Messages from Your Loved Ones 💜</h2>
+        <!-- Voice messages below image/text in a row -->
+        <div class="voice-row">
+            <div class="voice-row">
+                <div class="voice-note-box">
+                  <div class="voice-note">
+                    <button id="play-bryan">▶️</button>
+                    <span class="voice-label">Bu Bear</span>
+                    <audio id="audio-bryan" src="audio/bryan-audio.mp3"></audio>
+                  </div>
+                </div>
+              
+                <div class="voice-note-box">
+                  <div class="voice-note">
+                    <button id="play-zoe">▶️</button>
+                    <span class="voice-label">Zoe</span>
+                    <audio id="audio-zoe" src="audio/zoe-audio.mp3"></audio>
+                  </div>
+                </div>
+              
+                <div class="voice-note-box">
+                  <div class="voice-note">
+                    <button id="play-mitch">▶️</button>
+                    <span class="voice-label">Mitch & Jaclyn</span>
+                    <audio id="audio-mitch" src="audio/mitch-audio.mp3"></audio>
+                  </div>
+                </div>
+              
+        </div>
+      </main>
+
+  <footer class="footer">
+    Made with 💜 by Bu Bear — May 2025
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
